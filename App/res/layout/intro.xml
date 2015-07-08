@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="17dp"
+         android:layout_y="85dp"
+         android:text="@string/text2"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="179dp"
+         android:layout_y="85dp"
+         android:text="@string/text3"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="115dp"
+         android:layout_y="85dp"
+         android:shadowColor="#FF000000"
+         android:shadowDx="3.0"
+         android:shadowDy="3.0"
+         android:shadowRadius="3.0"
+         android:text="@string/sweatak"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textStyle="bold" />
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="228dp"
+         android:layout_height="250dp"
+         android:layout_x="51dp"
+         android:layout_y="140dp"
+         android:src="@drawable/washing" />
+
+     <TextView
+         android:id="@+id/textView5"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="118dp"
+         android:layout_y="456dp"
+         android:text="@string/from"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+
+     <TextView
+         android:id="@+id/textView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="114dp"
+         android:layout_y="55dp"
+         android:text="@string/text1"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</AbsoluteLayout>

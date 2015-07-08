@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="설정 사항 테스트" >
+
+    <PreferenceCategory
+        android:key="keycateappversion"
+        android:title="앱버전" >
+        <Preference
+            android:key="keyappversion"
+            android:title="3.0.6" >
+        </Preference>
+    </PreferenceCategory>
+
+    <Preference
+        android:key="keyagree"
+        android:title="약관 및 취급방침" />
+
+    <PreferenceCategory
+        android:key="keycatehelp"
+        android:title="문의하기" >
+        <Preference
+            android:key="keyhelp"
+            android:title="도움말" />
+        <Preference
+            android:key="keycontact"
+            android:title="고객센터" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

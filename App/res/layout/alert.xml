@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Notification 테스트"
+    />
+    <Button android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="10초후에 알림 메세지 받기"
+    android:onClick="push"/>
+
+</LinearLayout>

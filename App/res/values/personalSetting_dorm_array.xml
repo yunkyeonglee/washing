@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerArray1">
+        <item>의암관</item>
+        <item>한서관</item>
+        <item>예지원</item>
+        <item>난지원</item>
+        <item>국지원</item>
+        <item>율곡관</item>
+    </string-array>
+    
+</resources>

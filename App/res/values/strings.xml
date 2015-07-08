@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonNotice">공지사항</string>
+    <string name="buttonPersonalSetting">개인설정</string>
+    <string name="buttonQnA">QnA</string>
+    <string name="buttonSetting">설정</string>
+    <string name="buttonJoin">회원가입</string>
+    <string name="buttonOk">확인</string>
+    <string name="buttonCancel">취소</string>
+    <string name="text1">당신의 세탁</string>
+    <string name="text2">강원대학교</string>
+    <string name="text3">과 함께하세요.</string>
+    <string name="sweatak">SWEATAK</string>
+    <string name="from">©2015 by L.E.</string>
+    <string name="dorm">기숙사</string>
+    <string name="ex">선택한 결과는 다음과 같습니다.</string>
+    
+    <string name="spinnerPrompt1"> 기숙사 </string>
+    
+    <string name="string_head">\@string/string_head</string>
+    
+    <string name="app_message">\@string/app_message</string>
+    
+    <string name="button_title">\@string/button_title</string>
+
+</resources>

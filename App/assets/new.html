@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta charset="utf-8" />
+<script type="text/javascript" src="./jquery-2.1.4.js" ></script>
+<script>
+jQuery(function($){
+	$('body').html('<div  ><img id="washingMachine" src="washing.png" width="100px"height="100px" /></div>');
+	
+	$("#washingMachine").click( function(){
+		var $this = $(this);
+		$this.animate({
+			height : '300px',
+			opacity : '0.4'
+		}, "slow");
+		$this.animate({
+			width : '300px',
+			opacity : '0.8'
+		}, "slow");
+		$this.animate({
+			height : '100px',
+			opacity : '0.4'
+		}, "slow");
+		$this.animate({
+			width : '100px',
+			opacity : '0.8'
+		}, "slow");
+		
+		
+		
+	});
+
+});
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
